@@ -257,7 +257,7 @@ static void draw_text_line(int row, const char* t, int align) {
                 break;
         }
 
-     gr_text(col, (row+1)*CHAR_HEIGHT-1, t, col);
+     gr_text(0, (row+1)*CHAR_HEIGHT-1, t);
     }
 }
 
